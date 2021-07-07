@@ -1,0 +1,12 @@
+{
+  "name": "robot-market",
+  "version": "1.0.0",
+  "description": "place where you can buy some robots",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && node index.js & cd frontend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rasujan",
+  "license": "ISC"
+}
