@@ -32,6 +32,8 @@ const reducer = (
         robots: [],
         error: action.payload,
       };
+    default:
+      return state;
   }
 };
 

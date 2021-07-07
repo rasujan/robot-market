@@ -16,17 +16,15 @@ const navAnimationVariants = {
 };
 const Navbar = () => {
   return (
-    <div className="sticky h-16 top-1 z-10">
+    <div className="sticky h-16  z-10">
       <motion.div
         variants={navAnimationVariants}
         initial="hidden"
         animate="visible"
-        className="flex sm:justify-center md:justify-between
+        className="flex p-2 sm:justify-center md:justify-between
          flex-wrap rounded-md sm:text-sm md:text-2xl md:text-bold bg-gray-50 shadow-md dark:bg-gray-600 "
       >
-        <div className="mx-2 block text-center w-full md:w-auto h-auto">
-          <h1 className=""> Sujan Maharjan </h1>
-        </div>
+        <h1 className=""> 🤖 Robot Market</h1>
       </motion.div>
     </div>
   );
