@@ -16,7 +16,7 @@ const navAnimationVariants = {
 };
 const Navbar = () => {
   return (
-    <div className="sticky h-16  z-10">
+    <div className="sticky top-0 h-16  z-10">
       <motion.div
         variants={navAnimationVariants}
         initial="hidden"
